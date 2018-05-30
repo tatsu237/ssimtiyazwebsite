@@ -1,0 +1,295 @@
+/* Global Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Body */
+
+body {
+    font-family: Segoe UI, sans-serif;
+}
+
+/* Logo */
+
+.logo {
+    position: absolute;
+    display: block;
+    width: 534.11px;
+    height: auto;
+    margin-left: 140px;
+}
+
+/* Navigation */
+
+.contentWrapper {
+    width: 80%;
+    margin: auto;
+    padding: 0 10px;
+}
+
+nav {
+    background-color: #fff;
+    height: 100px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    float: right;
+}
+
+nav li {
+    display: inline-block;
+    font-size: 20px;
+    color: #000;
+    padding-right: 40px;
+    line-height: 100px;
+}
+
+nav a {
+    color: #000;
+}
+
+nav a:hover {
+    border-bottom: 1px solid red;
+}
+
+/* Showcase Section */
+
+.top-container {
+    background: url(../img/ifrah-akhter-630646-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 1000px;
+}
+
+.top-container h1 {
+    font-size: 52px;
+    color: #fff;
+    padding-top: 350px;
+    margin-left: 500px;
+}
+
+.top-container p {
+    font-size: 26px;
+    color: #fff;
+    margin: 35px 0px 50px 500px;
+}
+
+.top-container a {
+    font-size: 26px;
+}
+
+.buttonOne {
+    background: dodgerblue;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-left: 500px;
+    margin-top: 200px;
+    font-weight: 500;
+}
+
+.buttonOne:hover {
+    background: #fff;
+    color: dodgerblue;
+}
+
+/* Header Section */
+
+.header h1 {
+    padding-top: 50px;
+    font-size: 52px;
+    text-align: center;
+}
+
+.header p {
+    padding-top: 50px;
+    font-size: 26px;
+    text-align: center;
+}
+
+.buttonTwo {
+    background: dodgerblue;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-top: 50px;
+    font-weight: 500;
+    align-content: center;
+    justify-content: center;
+}
+
+.buttonTwo:hover {
+    background: #EEE;
+    color: dodgerblue;
+}
+
+.buttonTwoWrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    margin-bottom: 100px;
+}
+
+/* Four Insurance Box Section */
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.four-box {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    margin: 50px 0 50px 0;
+}
+
+
+.four-box h2  {
+    padding-top: 20px;
+}
+
+.four-box p {
+    padding: 20px 0 40px 0;
+}
+
+.box {
+    padding: 25px;
+    text-align: center;
+}
+
+/* Divider (Parallax-scroll) */
+
+.divider {
+    background:url(../img/evening.jpg);
+    background-color: #EDEDED;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+}
+
+/* Additional Info Section (2 & 3) */
+
+.sectionTwo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 500px;
+}
+
+.sectionTwo img {
+    margin: 10px 0 10px 0;
+}
+
+.sectionTwo h2 {
+    padding-top: 125px;
+    margin-left: -250px;
+}
+
+.sectionTwo p {
+    margin-left: -250px;
+    padding: 25px 0 50px 0;
+}
+
+.buttonThree {
+    background: dodgerblue;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: 500;
+    margin-left: -250px;
+}
+
+.buttonThree:hover {
+    background: #eee;
+    color: dodgerblue;
+}
+
+.sectionThree {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #;
+    height: 500px;
+}
+
+.sectionThree h2 {
+    margin-left: 250px;
+    padding-top: 125px;
+}
+
+.sectionThree p {
+    margin-left: 250px;
+    padding: 30px 0;
+}
+
+.sectionThreeImage {
+    justify-self: end;
+}
+
+.buttonFour {
+    background: dodgerblue;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: 500;
+    margin-left: 250px;
+}
+
+.buttonFour:hover {
+    background: #eee;
+    color: dodgerblue;
+}
+
+/* Footer Bar & Footer */
+
+.footerBar {
+    background-color: #2D2D2D;
+    color: #fff;
+    height: 100px;
+    padding: 100px 100px 100px 300px;
+    line-height: 30px;
+    text-align: left;
+}
+
+.footerBar ul {
+    border-left: 3px solid; 
+    border-left-color: #EA1D26;
+    padding-left: 15px;
+}
+
+.footerLegal {
+    margin-left: 250px;
+    margin-top: -120px;
+    padding-left: 15px;
+}
+
+.footerBar a:hover {
+    color: dodgerblue;
+}
+
+.contactInfo {
+    margin-left: 1000px;
+    margin-top: -90px;
+    padding-left: 15px;
+}
+
+footer {
+    background-color: #3B54A4;
+    color: #fff;
+    font-size: 14px;
+    line-height: 50px;
+    text-align: center;
+    height: 50px;
+}
